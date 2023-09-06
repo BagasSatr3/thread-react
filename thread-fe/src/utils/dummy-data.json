@@ -1,0 +1,26 @@
+[
+    {
+        "author_picture": "https://images.alphacoders.com/130/1306217.jpg",
+        "author_full_name": "Indah Pra Karya",
+        "author_username": "indahpra",
+        "posted_at": "4h",
+        "content": "Kalian pernah gak sih hidup yang bahagia banget gitu",
+        "image": "https://images.alphacoders.com/130/1306217.jpg",
+        "like_count": 10,
+        "replies_count": 5,
+        "is_liked": true,
+        "id": 1
+    },
+    {
+        "author_picture": "https://images.alphacoders.com/130/1306217.jpg",
+        "author_full_name": "Surya Elz",
+        "author_username": "suryaelz",
+        "posted_at": "4h",
+        "content": "Kalian  yang bahagia banget gitu",
+        "image": "https://images.alphacoders.com/130/1306217.jpg",
+        "like_count": 7,
+        "replies_count": 28,
+        "is_liked": false,
+        "id": 2
+    }
+]
