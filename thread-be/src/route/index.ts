@@ -26,8 +26,8 @@ router.get("/", ( req: Request, res: Response) => {
 router.get("/threads", verifyToken, ThreadsController.find)
 router.get("/threads/:id",verifyToken, ThreadsController.findOne)
 // router.post("/threads", verifyToken, ThreadsController.post)
-// router.post("/threads", verifyToken, upload('image'), ThreadsController.post)
-router.post("/threads",verifyToken, upload('image'), QueueController.enqueue)
+router.post("/threads", verifyToken, upload('image'), ThreadsController.post)
+// router.post("/threads",verifyToken, upload('image'), QueueController.enqueue)
 router.put("/threads/:id",verifyToken, ThreadsController.update)
 router.delete("/threads/:id",verifyToken, ThreadsController.delete)
 

@@ -3,10 +3,6 @@ import * as amqp from "amqplib"
 import { v2 as cloudinary } from "cloudinary"
 import { Thread } from "../entities/Threads";
 import { AppDataSource } from "../data-source";
-import { Connection, DataSource, Repository, createConnection, getRepository } from "typeorm";
-// class proccess {
-//     private readonly threadRepository: Repository<Thread> =
-//     AppDataSource.getRepository(Thread)
     export async function processQueue() {
         try {
             cloudinary.config({ 

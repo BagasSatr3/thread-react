@@ -25,9 +25,9 @@ class ThreadsController {
         }
     }
 
-    // post(req: Request, res: Response) {
-    //     ThreadsService.post(req,res)
-    // }
+    post(req: Request, res: Response) {
+        ThreadsService.post(req,res)
+    }
 
     update(req: Request, res: Response) {
         ThreadsService.update(req,res)
